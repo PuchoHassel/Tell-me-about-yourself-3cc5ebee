@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Sign Up</title>
+</head>
+<body>
+<h1>Sign up!</h1>
+<form action="#">
+	<script src="script.js"></script>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required minlength
+="10" maxlength="10" size="20"><br>
+
+<label for="Email">Email:</label><br>
+<input type="text" id="Email" name="Email" required minlength
+="10" maxlength="10" size="20"><br>
+
+<label for="Telefoonnummer">Telefoonnummer:</label><br>
+<input type="number" id="Telefoonnummer" name="Telefoonnummer" required minlength
+="10" maxlength="10" size="20"><br>
+
+<label for="Pin Code">Pin Code:</label><br>
+<input type="password" id="Pin Code" name="Pin Code" required minlength
+="10" maxlength="10" size="20"><br>
+
+<p>
+
+	<label for="Provincie-select">Provincie:</label> 
+	<select id="Provincie-select">
+	<option value="">kies een optie-</option>
+	<option value="Drenthe">Drenthe</option>
+	<option value="Friesland">Friesland</option>
+	<option value="Flevoland">Flevoland</option>
+	<option value="Gelderland">Gelderland</option>
+	<option value="Groningen">Groningen</option>
+	<option value="Limburg">Limburg</option>
+</select>
+</p>
+
+<p>Hou je van voetbal?</p>
+<div>
+	<input type="radio" id=Ja name="Ja" value="Ja"checked>
+	<label for="Ja">Ja</label><br>
+</div>
+<div>
+	<input type="radio" id=Nee name="Ja" value="Nee">
+	<label for="Nee">Nee</label><br>
+</div>
+<p>Favoriete dagen in de week
+	<div>
+		<label for="Maandag">Maandag</label>
+		<input type="checkbox" name="Maandag">
+		<br>
+		<label for="Dinsdag">Dinsdag</label>
+		<input type="checkbox" name="Dinsdag">
+		<br>
+		<label for="Woensdag">Woensdag</label>
+		<input type="checkbox" name="Woensdag">
+		<br>
+		<label for="Donderdag">Donderdag</label>
+		<input type="checkbox" name="Donderdag">
+		<br>
+		<label for="Vrijdag">Vrijdag</label>
+		<input type="checkbox" name="Vrijdag">
+		<br>
+		<label for="Zaterdag">Zaterdag</label>
+		<input type="checkbox" name="Zaterdag">
+		<br>
+		<label for="Zondag">Zondag</label>
+		<input type="checkbox" name="Zondag">
+	</div>
+
+<input type="submit">
+</form>
+</body>
+</html>
